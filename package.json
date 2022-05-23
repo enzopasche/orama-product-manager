@@ -12,14 +12,12 @@
     "keywords": [],
     "author": "",
     "license": "ISC",
-    "devDependencies": {
+    "dependencies": {
       "@types/bcryptjs": "^2.4.2",
       "@types/cors": "^2.8.12",
       "@types/express": "^4.17.13",
       "@types/uuid": "^8.3.4",
-      "typescript": "^4.6.3"
-    },
-    "dependencies": {
+      "typescript": "^4.6.3",
       "@types/dotenv": "^8.2.0",
       "@types/jest": "^27.5.1",
       "@types/jsonwebtoken": "^8.5.8",
