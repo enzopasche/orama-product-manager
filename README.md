@@ -50,5 +50,5 @@ O projeto foi criado com as seguintes tecnologias
  
 ## ✒️ Autor
 
-[**Enzo Pasche**](www.linkedin.com/in/enzo-pasche-do-carmo)
+[**Enzo Pasche**](https://www.linkedin.com/in/enzo-pasche-do-carmo/)
 
