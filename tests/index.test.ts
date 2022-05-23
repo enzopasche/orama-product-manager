@@ -63,7 +63,7 @@ describe("Teste de busca de produtos", () => {
   test("Erro que acontece quando o produto não existe.", async () => {
     expect.assertions;
     try {
-      const result = await productBusinessMock.findProduct(4, null, null);
+      const result = await productBusinessMock.findProduct(4, "", "");
 
       expect(result).toBe(undefined);
     } catch (error: any) {
