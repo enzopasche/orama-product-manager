@@ -13,4 +13,4 @@ const productController = new ProductContoller(
 )
 
 app.post("/products", productController.create)
-app.get("/products/search/:id", productController.findProduct)
+app.get("/products/search/", productController.findProduct)

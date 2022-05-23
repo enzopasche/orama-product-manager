@@ -4,4 +4,6 @@ POST http://localhost:3003/products
 ###
 
 
-GET http://localhost:3003/products/search/8083
+GET http://localhost:3003/products/search?tag=moderno
+
+

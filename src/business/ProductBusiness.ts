@@ -31,7 +31,7 @@ export class ProductBusiness {
     await this.productDatabase.create(input);
   };
 
-  findProduct = async (id: any, name: any, tag: any): Promise<any> => {
+  findProduct = async (id: number, name: string, tag: string): Promise<any> => {
     const result = await this.productDatabase.findProduct(id, name, tag);
     if (!result) {
       throw new Error("Product not found.");

@@ -37,9 +37,9 @@ export class ProductContoller{
 
     findProduct = async (req:Request, res:Response):Promise< any >=>{
         try {
-            const id = req.params.id
-            const name = req.query.name
-            const tag = req.query.tag
+            const id = Number(req.query.id)
+            const name = req.query.name as string
+            const tag = req.query.tag as string
             const result = await this.productBusiness.findProduct(id, name, tag)
 
             return res.status(200).send(result)
