@@ -1,41 +1,54 @@
-Desafio back-end AMARO
-==========================
+# 👗 ORAMA
 
-## Sobre o desafio
-
-### Criação de API para cadastro e consulta de produtos 
-
-Você precisa criar uma API com os seguintes requisitos:
-
-#### End-point para inserção de dados
-
-* O cliente poderá enviá-los em arquivos json ou xml e a API
-deverá inserir no banco de dados.
-* Escolha o banco de dados que achar melhor.
-
-#### End-point para consulta destes produtos
-
-* Pode ser consultado por: id, nome ou tags. Caso a consulta seja por uma tag ou nome, 
-deverá listar todos os produtos com aquela respectiva busca, poderá ser feito em um ou mais end-points.
-
-#### Requisitos Obrigatórios
-
-* Ter uma cobertura de teste relativamente boa, a maior que você conseguir.
-* Usar PHP
-* Pode usar qualquer framework PHP para o desenvolvimento ou não usar nenhum, fica a sua escolha.
-* Criar um cache para consulta.
+ORAMA é uma plataforma para registro e busca de roupas em um banco de dados. 
 
 
-#### PLUS - Não necessário
+# 🧑🏼‍💻 Deploy
 
-* Colocar uma autenticação JWT.
-* Usar PHP 7.1
+https://orama-product-manager.herokuapp.com
 
-## Orientações
-* Procure fazer uma API sucinta. 
-* Os arquivos (json, xml) junto com o formato que o cliente irá enviar estão no repositório.
-* Pensa em escalabilidade, pode ser uma quantidade muito grande de dados.
-* Coloque isso em um repositório GIT.
-* Colocar as orientações de setup no README do seu repositório.
 
-# Boa sorte 
+
+# 🚀 Começando
+
+### 📋 Pré-requisitos
+
+Para instalar a aplicação é necessário ter instalado na sua máquina:
+
+* [Git](https://git-scm.com/)
+* [Node](https://nodejs.org/en/)
+
+### 🔧 Instalação
+
+Para rodar o projeto execute os comandos abaixo no seu terminal:
+
+Para copiar o projeto\
+`https://github.com/enzopasche/orama-product-manager.git`
+
+Para rodar o projeto, entre na sua pasta raíz (MyMTG) e execute:\
+`npm install`
+
+Para criar uma cópia das tabelas no seu banco de dados, execute:\
+`npm run migrations`
+
+## 📄 Documentação da API
+https://documenter.getpostman.com/view/19298656/UyxojjXn
+
+## 🛠️ Tecnologias utilizadas
+
+O projeto foi criado com as seguintes tecnologias
+
+* [NodeJs](https://nodejs.org/en/) - Ambiente de execução server-side de JavaScript;
+* [Express](https://expressjs.com/) - Usado para construir a API da aplicação;
+* [UUID](https://www.npmjs.com/package/uuid) - Gerador de identificadores únicos;
+* [Git](https://git-scm.com/) - Ferramenta de versionamento de código;
+* [MySql](https://www.mysql.com) - Banco de dados usado para aplicação;
+* [Knex](http://knexjs.org/) - Ferramenta que possibilita integração de JavaScript com MySQL e
+* [Heroku](https://www.heroku.com) - Usado para hospedagem do projeto.
+
+
+ 
+## ✒️ Autor
+
+[**Enzo Pasche**](www.linkedin.com/in/enzo-pasche-do-carmo)
+
